@@ -12,7 +12,7 @@
 #include <sys/types.h>
 
 #define TTYS	"/dev/ttyS0"
-#define PIPE	"/var/run/serialpower.sock"
+#define PIPE	"/run/serialpower.sock"
 #define GROUP	"audio"
 #define TIMEOUT	60
 
