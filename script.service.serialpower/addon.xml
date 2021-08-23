@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.service.serialpower"
+       name="Serial Power Control"
+       version="0.1.0"
+       provider-name="Jiri Benc">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.service" library="resources/lib/main.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_US">Serial Power Control</summary>
+    <description lang="en_US">Switches the speakers on and off as needed.</description>
+    <platform>linux</platform>
+    <news>v0.1.0 (2021-08-23)
+      [new] initial version
+    </news>
+  </extension>
+</addon>
